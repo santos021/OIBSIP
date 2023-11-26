@@ -103,3 +103,57 @@
     font-size: 45px;
     padding: 120px;
 }
+
+.first-container {
+    display: flex;
+    margin-top: 40px;
+    padding: 40px;
+    justify-content: space-evenly;
+}
+
+.first-container button {
+    background-color: #0F866C;
+    color: white;
+    margin-top: 20px;
+    padding: 20px 45px;
+    border-radius: 35px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    cursor: pointer;
+}
+
+.first-container .img-data h2 {
+    font-size: 50px;
+}
+.first-container .img-data p {
+    font-size: 25px;
+    font-weight: 600;
+    margin: 25px 0px 25px 0px;
+    color: #0F866C;
+}
+.logos .fa-brands {
+    /* border: 3px solid red; */
+    margin: 12px 7px 12px 0px;
+    padding: 15px;
+    background-color:#ecf0f1;
+    font-size: 30px;
+}
+.img-data a {
+    text-decoration: none;
+}
+.img-data h3 {
+    text-decoration: underline;
+    color: #0F866C;
+    font-size: 25px;
+    margin: 15px 0px 20px 0px;
+}
+.first-container .image img {
+    width: 620px;
+}
+.first-container .img-data {
+    margin-left: 120px;
+}
+.first-container #img-data1 {
+    margin-top: 130px;
+}
