@@ -54,3 +54,8 @@ body {
     border-radius: 10px;
 }
 /* #8100ffab */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+
+}
