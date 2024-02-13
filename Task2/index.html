@@ -10,15 +10,17 @@
     <div class="box">
         <h2>Temperature Convertor</h2>
         <div class="sec-box">
-            <input type="number" placeholder="Enter Temperature">
-            <select>
+            <input type="number" id="temperature" placeholder="Enter Temperature">
+            <select id="unit">
                 <option value="fahrenheit">Fahrenheit</option>
                 <option value="celcious">Celcious</option>
                 <option value="kelvin">Kelvin</option>
             </select>
-            <button>Convert</button>
-            <input type="text" placeholder="Result">
+            <button onclick="convertTemperature()">Convert</button>
+            <input type="text" id="result" placeholder="Result">
         </div>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
