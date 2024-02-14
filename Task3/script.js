@@ -10,13 +10,13 @@ function convertTemperature() {
 
     if (unit === 'fahrenheit') {
         convertedTemperature = (temperatureInput * 9/5) + 32;
-        document.getElementById('result').value = `${temperatureInput} Celsius is ${convertedTemperature} Fahrenheit`;
+        document.getElementById('result').value = `${temperatureInput} Celsius is ${convertedTemperature.toFixed(2)} Fahrenheit`;
     } else if (unit === 'celcious') {
         convertedTemperature = (temperatureInput - 32) * 5/9;
-        document.getElementById('result').value = `${temperatureInput} Fahrenheit is ${convertedTemperature} Celsius`;
+        document.getElementById('result').value = `${temperatureInput} Fahrenheit is ${convertedTemperature.toFixed(2)} Celsius`;
     } else if (unit === 'kelvin') {
         convertedTemperature = parseFloat(temperatureInput) - 273.15;
-        document.getElementById('result').value = `${temperatureInput} Kelvin is ${convertedTemperature} Celsius`;
+        document.getElementById('result').value = `${temperatureInput} Kelvin is ${convertedTemperature.toFixed(2)} Celsius`;
     } else {
         alert('Please select a valid unit for temperature.');
     }
