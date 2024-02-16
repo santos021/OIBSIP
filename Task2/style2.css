@@ -1,10 +1,13 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 body {
     background-color: white;
+    scroll-behavior: smooth;
 }
 .navbar {
     background-color: rgb(63, 224, 213);
@@ -14,13 +17,16 @@ body {
     align-items: center;
     /* flex-direction: row; */
     /* border: 2px solid black; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 .navbar h2 > a {
     text-decoration: none;
     color: black;
     font-size: 26px;
-    font-family: 'Times New Roman', Times, serif;
 }
 .nav-items ul {
     display: flex;
@@ -30,12 +36,12 @@ body {
     /* border: 2px solid black; */
     font-size: 23px;
     font-weight: 600;
-    font-family: 'Times New Roman', Times, serif;
     cursor: pointer;
 }
 
 .nav-items ul > li {
     list-style: none;
+    font-size: 20px;
     
 }
 .nav-items ul > li > a {
@@ -44,8 +50,8 @@ body {
 }
 
 .nav-items ul > li > a:hover {
-    text-decoration: underline;
-    color: brown;
+    /* text-decoration: underline; */
+    color: rgb(63, 19, 184);
 }
 
 .home-content {
@@ -55,6 +61,7 @@ body {
     /* border: 2px solid red; */
     padding: 20px;
     margin: 50px;
+    margin-top: 180px;
 }
 
 .contents h3 {
@@ -122,4 +129,46 @@ body {
     border-radius: 50%;
     background-color: #3fe0d5;
     box-shadow: 0 0 20px #3fe0d5;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 2px solid red; */
+    padding: 20px;
+    margin: 50px;
+}
+
+.img-2 img {
+    width: 35vw;
+    /* border: 2px solid green; */
+    border-radius: 10%;
+    background-color: #3fe0d5;
+    /* box-shadow: 0 0 20px #3fe0d5; */
+}
+.about-me {
+    margin-left: 60px;
+    /* border: 2px solid blue; */
+}
+.about-me .heading {
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+.about-me span {
+    color: #3fe0d5;
+}
+
+.about-me p {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+.about-me .education {
+    /* border: 2px solid orangered; */
+    width: 50%;
+}
+.education h2 {
+    text-decoration: underline;
+    text-transform: uppercase;
+    margin-bottom: 15px;
 }
