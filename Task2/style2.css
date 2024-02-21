@@ -173,3 +173,32 @@ body {
     text-transform: uppercase;
     margin-bottom: 15px;
 }
+
+.skills {
+    border: 2px solid red;
+}
+.skills h2 {
+    text-align: center;
+    font-size: 50px;
+    color: #3fe0d5;
+    padding: 10px 0px 20px 0px;
+    border: 2px solid rgb(0, 26, 255);
+}
+.skill-content {
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid rgb(0, 255, 4);
+}
+.t-skill li {
+    list-style-type: none;
+}
+.t-skill h3 {
+    margin: 5px ;
+}
+.t-skill .bar {
+    background: #3fe0d5;
+    display: block;
+    height: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+}
