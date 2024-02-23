@@ -234,3 +234,10 @@ body {
     width: 60%;
     animation: react 3s;
 }
+
+footer {
+    text-align: center;
+    background: #bfbdbd;
+    color: black;
+    padding: 10px;
+}
