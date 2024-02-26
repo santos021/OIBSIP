@@ -241,3 +241,58 @@ footer {
     color: black;
     padding: 10px;
 }
+
+section.contact {
+    /* border: 2px solid rgb(0, 34, 255); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+    /* background: #755656; */
+}
+
+.contact h2 {
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.contact form {
+    width: 600px;
+    text-align: center;
+}
+
+form .input-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-box .input-field {
+    width: 48.5%;
+}
+
+.field .item {
+    width: 100%;
+    padding: 10px;
+    background: transparent;
+    border: 3px solid #3fe0d5;
+    outline: none;
+    border-radius: 6px;
+    font-size: 15px;
+    color: black;
+    margin: 12px 0;
+}
+
+form .textarea-field .item{
+    resize: none;
+}
+
+form button {
+    padding: 12px 32px;
+    background: #3fe0d5;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    box-shadow: 0 0 10px #0ef;
+}
