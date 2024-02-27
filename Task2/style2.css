@@ -243,11 +243,12 @@ footer {
 }
 
 section.contact {
-    /* border: 2px solid rgb(0, 34, 255); */
+    border: 2px solid rgb(0, 34, 255);
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 60vh;
+    padding: 50px;
     /* background: #755656; */
 }
 
@@ -295,4 +296,13 @@ form button {
     outline: none;
     border-radius: 6px;
     box-shadow: 0 0 10px #0ef;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    transition: .5s ease;
+}
+
+form button:hover {
+    background: #fff;
+    color: #3fe0d5;
 }
