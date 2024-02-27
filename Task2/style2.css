@@ -235,15 +235,12 @@ body {
     animation: react 3s;
 }
 
-footer {
-    text-align: center;
-    background: #bfbdbd;
-    color: black;
-    padding: 10px;
+section.projects {
+    border: 2px solid blue;
 }
 
 section.contact {
-    border: 2px solid rgb(0, 34, 255);
+    /* border: 2px solid rgb(0, 34, 255); */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -305,4 +302,11 @@ form button {
 form button:hover {
     background: #fff;
     color: #3fe0d5;
+}
+
+footer {
+    text-align: center;
+    background: #bfbdbd;
+    color: black;
+    padding: 10px;
 }
