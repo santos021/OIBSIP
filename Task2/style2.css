@@ -252,18 +252,26 @@ section.projects {
     /* padding: 20px 0px 15px 0px */
 }
 
+
 .project-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    /* border: 2px solid darkblue; */
+    display: flex;
     align-items: center;
-    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 50px;
+    width: 80%;
+    padding: 40px;
+    margin: auto;
 }
+
 .project-container .project-item {
     position: relative;
     display: flex;
     border-radius: 2rem;
     box-shadow: 0 0 1rem rgba(0, 0, 0, .1);
     overflow: hidden;
+    /* border: 2px solid red; */
 }
 .project-item img {
     width: 100%;
@@ -279,87 +287,39 @@ section.projects {
     width: 100%;
     height: 100%;
     background: linear-gradient(rgba(0,0,0,.1), #3fe0d5);
-    color: #fff;
+    color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     text-align: center;
-    padding: 0 64px;
+    padding: 0 20px;
     opacity: 0;
     transition: .5s ease;
+   
 }
 .project-item:hover .project-content {
     opacity: 1;
 }
 
 .project-content h4 {
-    font-size: 40px;
+    font-size: 30px;
+    /* margin-top: 10px; */
 }
 .project-content p {
     font-size: 15px;
-    margin: 5px 0 16px;
+    /* margin: 3px 0 5px; */
 }
 .project-content a {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     background: white;
     border-radius: 50%;
 }
-/* .project-container {
-    display: flex;
-    justify-content: space-between;
-    border: 2px solid teal;
-    padding: 50px;
-    gap: 40px;
-}
-.buttons {
-    display: flex;
-    flex-direction: row;
-    gap: 30px;
-}
 
-.live-btn{
-    padding: 10px 25px;
-    background: #3fe0d5;
-    border: none;
-    outline: none;
-    border-radius: 6px;
-    box-shadow: 0 0 10px rgba(0, 238, 255, 0.79);
-    cursor: pointer;
-    font-size: 20px;
-    font-weight: 600;
-    transition: .5s ease;
-    text-decoration: none;
-    color: black;
-
-}
-.live-btn:hover {
-    background: #fff;
-    color: #3fe0d5;
-}
-
-.git-btn{
-    padding: 10px 25px;
-    background: white;
-    border: none;
-    outline: none;
-    border-radius: 6px;
-    box-shadow: 0 0 10px #0ef;
-    cursor: pointer;
-    font-size: 20px;
-    font-weight: 600;
-    transition: .5s ease;
-    text-decoration: none;
-    color: #3fe0d5;
-}
-.git-btn:hover {
-    background: #3fe0d5;
-    color: black;
-} */
 section.contact {
     /* border: 2px solid rgb(0, 34, 255); */
     display: flex;
