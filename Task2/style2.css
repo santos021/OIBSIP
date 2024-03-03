@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: white;
+    background-color: #2a2a2a;
 
 }
 .navbar {
@@ -67,16 +67,19 @@ body {
 
 .contents h3 {
     font-size: 25px;
+    color: white;
 }
 .contents h1 {
     font-size: 45px;
     font-weight: bold;
+    color: white;
 }
 .contents h2 {
     font-size: 28px;
+    color: white;
 }
 .contents h2 span {
-    color: #237CE1;
+    color: #3fe0cede;
     text-transform: uppercase;
 }
 .social-media {
@@ -155,6 +158,7 @@ body {
 .about-me .heading {
     font-size: 50px;
     margin-bottom: 25px;
+    color: white;
 }
 .about-me span {
     color: #3fe0d5;
@@ -163,15 +167,18 @@ body {
 .about-me p {
     font-size: 20px;
     margin-bottom: 25px;
+    color: gray;
 }
 .about-me .education {
     /* border: 2px solid orangered; */
     width: 50%;
+    color: white;
 }
 .education h2 {
     text-decoration: underline;
     text-transform: uppercase;
     margin-bottom: 15px;
+    color: white;
 }
 
 .skills {
@@ -182,7 +189,7 @@ body {
 .skills h2 {
     text-align: center;
     font-size: 50px;
-    color: #000;
+    color: #ffffff;
     padding: 30px 0px 20px 0px;
     /* border: 2px solid rgb(0, 26, 255); */
 }
@@ -199,6 +206,7 @@ body {
 .t-skill h3 {
     margin: 5px ;
     font-size: 25px;
+    color: white;
 }
 .t-skill .bar {
     background: #c1c1c1;
@@ -249,6 +257,7 @@ section.projects {
     /* border: 2px solid red; */
     font-size: 50px;
     margin-bottom: 48px;
+    color: white;
     /* padding: 20px 0px 15px 0px */
 }
 
@@ -332,7 +341,7 @@ section.contact {
 
 .contact h2 {
     font-size: 50px;
-    color: black;
+    color: rgb(187, 187, 187);
     text-align: center;
     margin-bottom: 10px;
 }
@@ -359,7 +368,7 @@ form .input-box {
     outline: none;
     border-radius: 6px;
     font-size: 15px;
-    color: black;
+    color: rgb(255, 255, 255);
     margin: 12px 0;
 }
 
@@ -390,4 +399,22 @@ footer {
     background: #bfbdbd;
     color: black;
     padding: 10px;
+}
+
+#scroll-top {
+    background-color: #3fe0d5;
+    color: #151527;
+    padding: 9px;
+    border-radius: 9px;
+    width: 45px;
+    height: 45px;
+    position: fixed;
+    bottom: 1rem;
+    right: 4%;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 2000;
 }
